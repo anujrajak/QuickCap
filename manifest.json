@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "QuickCap",
+  "version": "2.4.0",
+  "description": "Quickly capture the current tab and save numbered PNGs to a folder you choose.",
+  "permissions": ["activeTab", "tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "QuickCap"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

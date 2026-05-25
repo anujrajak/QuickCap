@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickCap</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>QuickCap</h1>
+
+    <p id="folderLabel" class="folder-label">No folder selected</p>
+    <button id="chooseFolder" type="button">Choose folder</button>
+
+    <label for="fileNamePattern">File name pattern</label>
+    <input
+      id="fileNamePattern"
+      type="text"
+      placeholder="quickcap"
+      spellcheck="false"
+    />
+    <p class="hint">Saved as: pattern-1.png, pattern-2.png, … (auto-increments in your folder)</p>
+
+    <button id="capture" type="button" class="primary">Capture &amp; save</button>
+    <p id="message" class="message" aria-live="polite"></p>
+
+    <script src="idb.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
