@@ -4,7 +4,7 @@
 2. One-time native helper setup (Terminal, from this folder):
 
    ```bash
-   ./install-native-host.sh lkdpggljliabccdehifmaefiihofbigb
+   ./install-native-host.sh <chrome-extension-id>
    ```
 
    Then **reload** the extension on `chrome://extensions`.
